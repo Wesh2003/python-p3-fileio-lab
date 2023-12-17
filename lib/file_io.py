@@ -1,8 +1,5 @@
-def write_file(file_name, file_content):
-    pass
+write = write_file(file_name="logfile", file_content="Log 1: 5 bananas added" )
+append = append_file(file_name="logfile", append_content="Log 2: 3 bananas subtracted")
 
-def append_file(file_name, append_content):
-    pass
+read = read_file(file_name="logfile")
 
-def read_file(file_name):
-    pass
